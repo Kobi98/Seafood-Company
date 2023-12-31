@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>V.K Seafood Exporter-Contact Us</title>
+	<link rel="shortcut icon" type="image/png" href="images/logo2.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<script src="jquery-3.5.1.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+
+<body> 
+
+	<div id="header" class="col-12">
+		<div id="topbar">
+		<marquee>
+		<h3><span><span>V.K Seafood Exporter</span> - A Leading fresh and frozen seafood collector & exporter.
+		&nbsp;&nbsp; --Maximum of Freshness and Quality guaranteed--&nbsp; Tel: +94 767574808 <i class="fa fa-phone" aria-hidden="true"></span></i></h3>
+		</marquee>
+		</div>
+		<div class="logo"><img src="images/logo3.png"></div>
+    </div>
+	<nav>
+     
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a href="about.html"><i class="fa fa-address-book-o" aria-hidden="true"></i> About Us</a></li>
+        <li>
+          <label for="btn-1" class="show"><i class="fa fa-product-hunt" aria-hidden="true"></i> Products +</label>
+          <a href="products.html"><i class="fa fa-product-hunt" aria-hidden="true"></i> Products</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="fish.html">Fish</a></li>
+            <li><a href="crab.html">Crab</a></li>
+            <li><a href="prawns.html">Prawns</a></li>
+          </ul>
+        </li>
+        <li><a href="quality.html"><i class="fa fa-check" aria-hidden="true"></i> Quality Policy</a></li>
+        <li><a href="contact.html" class="active"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a></li>
+      </ul>
+    </nav>
+	
+	
+	<div id="container1"> 
+	<h2 id="comban" class="col-12">Contact Us</h2> 
+	<div id="form" class="container col-12" onsubmit="return myfunction()" >
+	<center><h1>Please fill out the following form with correct details</h1></center>
+	
+	<form name="form" method="post" target="blank">
+			<div class="formt1">
+			<br>Personal Details<br/><br/></div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<div class="formt1">
+			Contact Details
+			<br/><br/></div>
+		<label for="email">Email</label>
+		<input type="email" name="email" placeholder="abcd@gmail.com"/>
+ 
+	<label for="lname">Mobile </label>
+	<input type="number" name="mobile" placeholder="Mobile number.." required/>
+		<div class="formt1">
+			Other Details
+			<br/><br/></div>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Srilanka</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+		<div class="col-12">
+			I accept the Terms and Conditions
+			<input type="checkbox" name="agreed"/>
+			<a href="#">Terms and Conditions.</a>
+			</div>
+    <input type="submit" value="Submit">
+	
+
+  </form>
+</div>
+	</div>
+	
+	<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+		<h3>V.K<span>Seafoods</span></h3>
+ 
+		<p class="footer-links">
+		<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+	·
+		<a href="about.html">About Us</a>
+	·
+		<a href="contact.html">Contact Us</a>
+		</p>
+		<p class="footer-company-name">Copyright &copy; 2021</p>
+		<p class="footer-company-name">All Rights Reserved - <a href="index.html">V.K Seafood Exporter-Srilanka</a></p>
+		</div>
+ 
+		<div class="footer-center">
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>Head Office</span>Badulla, Srilanka</p>
+		</div>
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+94 767574808</p>
+		</div>
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:vkobi1998@gmail.com">vkobi1998@gmail.com</a></p>
+		</div>
+		</div>
+ 
+		<div class="footer-right">
+		<p class="footer-company-about">
+		<span>About the company</span>
+		A Leading fresh and frozen seafood collector &amp; exporter.</p>
+		<div class="footer-icons">
+		<a href="https://www.facebook.com/kobi.vijayakumar" target="blank"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+		</div>
+		</div>
+ 
+	</footer>
+
+	<script>
+	$('.icon').click(function(){
+    $('span').toggleClass("cancel");
+    </script>
+	
+</body>
+
+
+</html>
